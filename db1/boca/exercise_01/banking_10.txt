@@ -1,0 +1,1 @@
+π branch_name (σ branch_city LIKE '%n%' ∨ branch_name LIKE 'R%'(branch) )

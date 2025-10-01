@@ -1,0 +1,2 @@
+sq1 = γ max(balance) -> max_balance (account)
+π account_number (account ⟖ balance = max_balance (sq1))

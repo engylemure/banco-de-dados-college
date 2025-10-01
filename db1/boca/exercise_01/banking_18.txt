@@ -1,0 +1,8 @@
+c = σ customer_name = 'Hayes' (customer)
+ab = account ⨝ branch
+ab_d = ab ⨝ depositor
+ab_dc = π branch_name, branch_city (ab_d ⨝ c)
+lb = loan ⨝ branch
+lb_b = lb ⨝ borrower
+lb_bc = π branch_name, branch_city (lb_b ⨝ c)
+lb_bc ∩ ab_dc

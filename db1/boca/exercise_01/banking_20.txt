@@ -1,0 +1,2 @@
+sq1 = π balance → balance1 (σ branch_name = 'North Town' (account))
+π account_number (sq1 ⟕ balance < balance1 (account))

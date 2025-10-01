@@ -1,0 +1,8 @@
+b = σ branch_name = 'Perryridge' (branch)
+ab = account ⨝ b
+lb = loan ⨝ b
+ab_d = ab ⨝ depositor
+lb_b = lb ⨝ borrower
+ab_dc = π customer.customer_name, customer.customer_city (ab_d ⨝ customer)
+lb_bc = π customer.customer_name, customer.customer_city (lb_b ⨝ customer)
+ab_dc

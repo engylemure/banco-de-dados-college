@@ -1,0 +1,2 @@
+sq1 = γ branch_name; avg(balance) -> avg_balance (account)
+σ avg_balance >= 1200 (sq1)

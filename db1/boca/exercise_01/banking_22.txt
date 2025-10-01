@@ -1,0 +1,5 @@
+c1 = ρ c1 (customer)
+c = ρ c (customer)
+
+sq1 = c1 ⟖ c1.customer_street = c.customer_street ∧ c.customer_city != c1.customer_city (c) 
+π c1.customer_name (σ c1.customer_name != null ∧ c.customer_name != null (sq1)) 

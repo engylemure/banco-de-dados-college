@@ -1,0 +1,2 @@
+sq1 = π amount → amount1 (σ branch_name = 'Downtown' (loan))
+π loan_number (sq1 ⟕ amount <= amount1 (loan))

@@ -1,0 +1,4 @@
+b = π branch_name (σ customer_name = 'Smith' (loan ⨝ borrower))
+a = π account_number (account ⨝ b)
+π customer_name (σ customer_name != 'Smith' (depositor ⨝ a))
+
